@@ -3,11 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>Gallery</title>
+    <base href="http://localhost:63342/AngularSample/template/">
 </head>
 <link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/styles.css">
 <script src="js/angular.min.js"></script>
 <script src="js/angular-route.min.js"></script>
-<body  ng-controller="imageGalleryController" >
+
+<body>
 <nav class="navbar navbar-default">
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -25,7 +28,7 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
                 <li class="active"><a href="#/"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>&nbspHome</a></li>
-                <li><a href="#about"><span class="glyphicon glyphicon-upload" aria-hidden="true"></span>&nbspUpload New Art</a></li>
+                <li><a href="#upload"><span class="glyphicon glyphicon-upload" aria-hidden="true"></span>&nbspUpload New Art</a></li>
             </ul>
 
             <ul class="nav navbar-nav navbar-right">
@@ -49,10 +52,8 @@
 </div>
 
 </body>
-<script src="js/scripts.js"></script>
-
 <script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/scripts.js"></script>
 <script src="js/bootstrap.min.js"></script>
-
 
 </html>

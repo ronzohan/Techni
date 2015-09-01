@@ -1,0 +1,13 @@
+.currency {
+    color: green;
+    font-weight: bold
+}
+
+.thumbnailimg {
+    max-width: 300px;
+    max-height: 250px;
+    min-width: auto;
+    min-height: 250px;
+
+    margin-top: 15px;
+}

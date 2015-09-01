@@ -1,15 +1,16 @@
-<script src="https://cdnjs.cloudflare.com/ajax/libs/holder/2.8.2/holder.js"></script>
 <div class="container">
     <div class="row">
         <div class="col-sm-6 col-md-4" ng-repeat="image in images" ng-cloak>
             <div class="thumbnail">
-                <img src="holder.js/330x250" alt="imagehere">
+                <img class="thumbnailimg" src="{{ image.imageSource }}">
                 <div class="caption">
                     <h3>{{ image.title }}</h3>
                     <h6>Author: {{ image.author }}</h6>
                     <h6>Uploaded: {{ image.dateUpload }}</h6>
-                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                    <p><a href="#/{{ image.imageID}}" ng-click="viewImageDetailController" class="btn btn-primary" role="button">View Details</a> <a href="#" class="btn btn-default" role="button">Send Message</a></p>
+                    <h5 class="currency">Price: {{ image.price }}</h5>
+                    <p>
+                        <a href="#/image/{{ image.imageID}}" ng-click="viewImageDetailController" class="btn btn-primary" role="button">View Details</a>
+                        <a href="#" class="btn btn-default" role="button">Send Message</a></p>
                 </div>
             </div>
         </div>
