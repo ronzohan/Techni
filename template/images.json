@@ -1,0 +1,26 @@
+{"image":[
+	{
+    "imageID":"0", 
+	"title":"Mona Lisa", 
+	"author":"Leonardo da Vinci", 
+	"dateUpload":"August 20, 2015", 
+	"price":"Php 2000.00", 
+	"imageSource":"resource/pics/monalisa.jpg"
+	},
+	{
+    "imageID":"1", 
+	"title":"The Scream", 
+	"author":"Edvard Munch", 
+	"dateUpload":"August 20, 2015", 
+	"price":"Php 1000.00", 
+	"imageSource":"resource/pics/The_Scream.jpg"
+	},
+	{
+    "imageID":"0", 
+	"title":"Mona Lisa", 
+	"author":"Leonardo da Vinci", 
+	"dateUpload":"August 20, 2015", 
+	"price":"Php 2000.00", 
+	"imageSource":"resource/pics/monalisa.jpg"
+	}
+]}
